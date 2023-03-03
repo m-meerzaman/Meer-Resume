@@ -1,0 +1,331 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: #363543;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 38px 135px 25px;
+}
+
+nav h1 {
+    display: inline;
+    color: white;
+}
+
+nav ul li a {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.list ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.list {
+    width: 30%;
+    position: relative;
+    left: -15%;
+}
+
+.navlogo {
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo>img {
+    margin-right: 5px;
+    width: 35px;
+
+}
+
+.navimg {
+    width: 30px;
+}
+
+.fellow-div {
+    height: 780px;
+    background-color: #363543;
+}
+
+.center-circle {
+    height: 6.6in;
+    width: 6.6in;
+    background-color: #2d2d39;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.left-content {
+    position: relative;
+    display: inline-block;
+    top: -810px;
+    left: 137px;
+    width: 20%;
+}
+
+p.im {
+    color: #a09fae;
+    position: relative;
+    font-size: 73px;
+}
+
+
+p.name,
+span.name {
+    font-size: 100px;
+    color: #fdfefd;
+    font-weight: 550;
+    margin-top: -5px;
+
+}
+
+p.detail-left {
+    color: #a3a2a6;
+    line-height: 25px;
+    font-size: large;
+    font-weight: normal;
+    margin-top: 70px;
+    line-height: 30px;
+}
+
+.meer {
+    width: 595px;
+    margin: auto;
+    position: relative;
+    top: -660px;
+    left: 195px;
+}
+
+.tech-names {
+    background-color: #403f4f;
+    height: 172px;
+    width: 13.7in;
+    margin: auto;
+    position: relative;
+    top: -95px;
+}
+
+.name>span {
+    border-bottom: solid;
+    border-bottom-color: gold;
+    border-bottom-width: thick;
+    padding-bottom: 25px;
+}
+
+.right-content {
+    position: relative;
+    right: -100px;
+    top: -968px;
+    color: #dcdbe9;
+    display: inline-block;
+}
+
+p.service {
+    font-size: x-large;
+}
+
+p.right-para {
+    font-size: 30px;
+    margin: 22px 0px;
+
+}
+
+p.show-more {
+    font-size: 22px;
+    color: gold;
+}
+
+.aero {
+    width: 24px;
+    height: auto;
+    position: relative;
+    top: 6px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.tech-names {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tech-names>div {
+    width: 72mm;
+    height: 22mm;
+    background-color: #373646;
+}
+
+.social-links>div {
+    height: 0.4in;
+    width: 0.4in;
+    border-radius: 50%;
+    background-color: #4d484e;
+
+
+
+
+}
+
+.social-links>div>img {
+    height: 24px;
+    width: auto;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 40px;
+}
+
+.sl-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-names a,
+.tech-names div,
+.tech-names p {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 550;
+}
+
+.tech-names img {
+    width: 0.5in;
+    height: auto;
+}
+
+.gogle>a>img {
+    width: 1.5in;
+}
+
+.middle-div {
+    background-color: #282834;
+    height: 230mm;
+}
+
+.middle-left p {
+    color: #6f6f7b;
+    font-weight: 400;
+}
+
+.gold {
+    color: gold !important;
+    font-size: xx-large;
+}
+
+.paraone-heading {
+    color: white !important;
+    font-size: 58px;
+}
+
+.middle-left,
+.experties,
+.experties>img {
+    display: inline-block;
+
+}
+
+.middle-content {
+    display: inline;
+}
+
+.images>img,
+.images {
+    width: 48mm;
+    height: 35mm;
+    display: flex;
+    align-items: center;
+    color: #6b6977;
+    margin-right: 30px;
+}
+
+div.images {
+    width: 20%;
+}
+
+.project {
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-start;
+    margin-top: 35px;
+    line-height: 40px;
+
+}
+
+.white {
+    color: white;
+    font-size: 34px;
+
+}
+
+div.images {
+    width: 100%;
+    border-bottom: solid;
+    border-bottom-color: #6b6977;
+    border-bottom-width: 1px;
+    padding: 25px 0px;
+}
+
+.projecttwo {
+    margin-left: 65px;
+}
+
+.middle-left {
+    position: relative;
+    top: -140px;
+    left: 135px;
+}
+
+.experties {
+    position: relative;
+    top: 10px;
+    left: 360px;
+}
+p.paratwo{
+    line-height: 30px;
+    font-size: 22px;
+    margin-top: 22px;
+    font-weight: 600;
+}
+.aeru1 {
+    position: relative;
+    left: 128px;
+}
+.aeru2{
+    position: relative;
+    left: 50px;
+}
+.aeru3{
+    position: relative;
+    left: 18px;
+}
