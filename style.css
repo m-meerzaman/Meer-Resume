@@ -20,7 +20,7 @@ nav h1 {
 nav ul li a {
     display: inline;
     text-decoration: none;
-    color: white;
+    color: #a09fae;
     font-weight: 600;
     font-size: larger;
 
@@ -230,7 +230,7 @@ nav ul li {
 
 .middle-div {
     background-color: #282834;
-    height: 230mm;
+    height: 322mm;
 }
 
 .middle-left p {
@@ -329,3 +329,48 @@ p.paratwo{
     position: relative;
     left: 18px;
 }
+nav ul li a:hover{
+    color: white;
+}
+.footer-services {
+    height: 285px;
+    width: 365px;
+    background-color: #403f51;
+    padding: 30px;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 100px;
+    position: relative;
+    bottom: 295px;
+}
+.footer{
+    background-color: #363543;
+    height: 50px;
+    width: auto;
+    position: relative;
+    bottom:-345px;
+}
+.foter-img{
+    width: 0.7in;
+    height: 0.7in;
+    border-radius: 50%;
+    background-color: #363545;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.foter-img > img{
+    width: 40px;
+    height: auto;
+
+}
+.foter-para {
+    font-size: 20px;
+    color: #aeaeae;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
